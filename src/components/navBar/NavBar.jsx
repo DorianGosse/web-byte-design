@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./NavBar.css";
 export default class NavBar extends Component {
   state = {
     isOpen: false,
@@ -14,7 +14,7 @@ export default class NavBar extends Component {
       <div className="navBar">
         <a href="/">
           <img
-            src={require("../../assets/lightbulb1090.jpg")}
+            src={require("../../assets/Source file.png")}
             alt="Logo"
             className="nav-logo"
           />
@@ -22,7 +22,7 @@ export default class NavBar extends Component {
         <div className="navigatoin">
           <ul className="navigation-items">
             <li>
-              <a href="/Home"></a>HOME
+              <a href="/Home">HOME</a>
             </li>
             <li>
               <a href="/Pricing">ABOUT</a>
@@ -31,7 +31,7 @@ export default class NavBar extends Component {
                   <a href="/Services">Services</a>
                 </li>
                 <li>
-                  <a href="About-Us"></a>About Us
+                  <a href="About-Us">About Us</a>
                 </li>
                 <li>
                   <a href="Our-Team">Our Team</a>
@@ -39,7 +39,10 @@ export default class NavBar extends Component {
               </ul>
             </li>
             <li>
-              <a href="/About"></a>PRICING
+              <a href="/About">PRICING</a>
+            </li>
+            <li>
+              <a href="/Contact">CONTACT</a>
             </li>
           </ul>
         </div>
