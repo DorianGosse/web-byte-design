@@ -1,1 +1,65 @@
+/* NarBar container
+=================================== */
 
+nav {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: red;
+}
+/* NarBar Logo
+ ==================================  */
+.nav-logo {
+  width: 300px;
+  float: left;
+
+  margin-left: 6rem;
+}
+
+/* NavBar ul, ul li, ul li a
+===================================== */
+
+.navigation-items {
+  float: right;
+  margin-top: 3rem;
+
+  margin-right: 3rem;
+}
+
+.navigation-items li {
+  display: inline-block;
+  margin-right: 3rem;
+
+  font-size: large;
+  font-weight: bold;
+}
+
+/* About-sub-list
+============================== */
+
+.About-sub-list {
+  display: none;
+  position: absolute;
+
+  padding-left: 0;
+}
+
+.About-sub-list li {
+  text-align: left;
+  width: 100%;
+  padding-top: 1.5rem;
+}
+
+/* Hovering Navigation Items 
+================================= */
+
+.navigation-items a:hover {
+  color: black;
+}
+
+.navigation-items li:hover ul {
+  display: block;
+}

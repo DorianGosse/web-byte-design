@@ -11,7 +11,7 @@ export default class NavBar extends Component {
 
   render() {
     return (
-      <div className="navBar">
+      <nav>
         <a href="/">
           <img
             src={require("../../assets/Source file.png")}
@@ -46,7 +46,7 @@ export default class NavBar extends Component {
             </li>
           </ul>
         </div>
-      </div>
+      </nav>
     );
   }
 }
