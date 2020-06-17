@@ -8,7 +8,7 @@ nav {
   height: auto;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: red;
+  /* background-color: red; */
 }
 /* NarBar Logo
  ==================================  */
@@ -23,18 +23,22 @@ nav {
 ===================================== */
 
 .navigation-items {
-  float: right;
-  margin-top: 3rem;
-
-  margin-right: 3rem;
+  margin-top: 4.5rem;
+  text-align: center;
+  margin-right: 15rem;
 }
 
 .navigation-items li {
   display: inline-block;
-  margin-right: 3rem;
+  /* margin-right: 3rem; */
 
   font-size: large;
   font-weight: bold;
+}
+
+.navigation-items li a {
+  padding: 0.5rem 1rem;
+  border-radius: 75%;
 }
 
 /* About-sub-list
@@ -57,7 +61,8 @@ nav {
 ================================= */
 
 .navigation-items a:hover {
-  color: black;
+  color: #c9c9c9;
+  background-color: black;
 }
 
 .navigation-items li:hover ul {

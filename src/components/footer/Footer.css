@@ -18,4 +18,8 @@ footer div {
 .list-title {
   margin-bottom: 0.5rem;
   font-weight: 600;
+  color: #524f4e;
+}
+footer ul li a {
+  color: #7d7d7d;
 }
