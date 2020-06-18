@@ -1,5 +1,6 @@
 import React from "react";
 import "./TextBox.css";
+import { Button } from "../interactable/button/button";
 
 export default function TextBox() {
   return (
@@ -14,6 +15,7 @@ export default function TextBox() {
         but creating great working relationships to help get you’re website
         created as you envision it.
       </p>
+      <Button>my button</Button>
     </div>
   );
 }
