@@ -24,28 +24,28 @@ export default class Footer extends Component {
           <ul>
             <li className="list-title">Contact</li>
             <li>
-              <a href="#">Request A Quote</a>
+              <a href="/">Request A Quote</a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="/">Contact Us</a>
             </li>
             <li>
-              <a href="#">See Our Work</a>
+              <a href="/">See Our Work</a>
             </li>
           </ul>
         </div>
 
         <div className="Services">
-          <ul class="unstyled-list">
+          <ul className="unstyled-list">
             <li className="list-title">Services</li>
             <li>
-              <a href="#">Webstie Development</a>
+              <a href="/">Webstie Development</a>
             </li>
             <li>
-              <a href="#">Consultation</a>
+              <a href="/">Consultation</a>
             </li>
             <li>
-              <a href="#">Graphic Design</a>
+              <a href="/">Graphic Design</a>
             </li>
           </ul>
         </div>

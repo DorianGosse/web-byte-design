@@ -1,5 +1,18 @@
 .home-page {
   /* background-image: url(../../assets/notebook.jpg); */
   width: 100%;
-  text-align: center;
+}
+
+.top-img {
+  width: 100%;
+}
+.textbox {
+  position: absolute;
+  z-index: 1;
+
+  width: 20%;
+  height: auto;
+
+  margin-left: 6rem;
+  margin-top: 35%;
 }

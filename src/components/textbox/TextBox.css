@@ -1,5 +1,25 @@
 .box {
-  width: 100%;
-  background-color: red;
+  position: relative;
   text-align: center;
+
+  border-radius: 10%;
+  padding: 20px;
+
+  box-shadow: inset 0px 0px 10px 4px;
+
+  font-weight: 600;
+
+  background-position: 1rem;
+  height: 17rem;
+  max-height: 17rem;
+}
+
+p {
+  color: #ffff;
+  position: relative;
+  padding-top: 1rem;
+}
+
+.bottom-p {
+  padding-bottom: 1rem;
 }
