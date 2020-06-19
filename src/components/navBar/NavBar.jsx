@@ -22,7 +22,7 @@ export default class NavBar extends Component {
         <div className="navigatoin">
           <ul className="navigation-items">
             <li>
-              <a href="/Home">HOME</a>
+              <a href="/">HOME</a>
             </li>
             <li>
               <a href="/Pricing">ABOUT</a>

@@ -1,10 +1,18 @@
+/*Home Page globals
+=====================================*/
 .home-page {
-  /* background-image: url(../../assets/notebook.jpg); */
   width: 100%;
+  bottom: 0;
 }
 
+div {
+  vertical-align: top;
+}
+/*Top image half
+=======================================*/
 .top-img {
   width: 100%;
+  display: block;
 }
 .textbox {
   position: absolute;
@@ -13,6 +21,31 @@
   width: 20%;
   height: auto;
 
-  margin-left: 6rem;
-  margin-top: 35%;
+  margin-left: 15%;
+  margin-top: 25%;
+}
+
+/*Second (bottom half) 
+=========================================*/
+.services-img {
+  display: block;
+  width: 100%;
+}
+
+.header-block {
+  position: absolute;
+  width: 100%;
+  display: block;
+  padding: 1.5rem 4.5rem;
+  border: 4.5px solid black;
+  outline: 3px solid black;
+  outline-offset: -25px;
+
+  width: 18rem;
+  height: auto;
+  margin-left: 41%;
+}
+
+.header-block p {
+  padding: 0;
 }

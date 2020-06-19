@@ -12,7 +12,7 @@ import Error from "./pages/error/Error";
 function App() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about-us" component={AboutUs} />
@@ -20,7 +20,7 @@ function App() {
         <Route component={Error} />
       </Switch>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
