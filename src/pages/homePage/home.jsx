@@ -44,7 +44,22 @@ export default function home() {
           between we've got a solution for you!
         </p>
       </div>
-      <div className="protfolio-text"></div>
+
+      <div className="protfolio-text">
+        {/* need a learn more button here */}
+        <h3>Want to See out Work?</h3>
+        <p>
+          We don't expect you to take our word for how well we do our jobs
+          becuase anyone can write some html. So see for yourself! You can find
+          come of our previous projects that we've done for clients by visiting
+          their sites or, clicking the learn more button!
+        </p>
+        <a className="JTSD-link" href="journeyToSoftwareDevelopment.com">
+          Journey to Software Development
+        </a>
+        {/* details button here  */}
+        <p></p>
+      </div>
       <img
         className="services-img"
         src={require("../../assets/office.jpg")}
