@@ -25,21 +25,21 @@ export default class NavBar extends Component {
               <a href="/">HOME</a>
             </li>
             <li>
-              <a href="/Pricing">ABOUT</a>
+              <a href="/About">ABOUT</a>
               <ul className="About-sub-list">
                 <li>
                   <a href="/Services">Services</a>
                 </li>
                 <li>
-                  <a href="About-Us">About Us</a>
+                  <a href="/About-Us">About Us</a>
                 </li>
                 <li>
-                  <a href="Our-Team">Our Team</a>
+                  <a href="/Our-Team">Our Team</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/About">PRICING</a>
+              <a href="/Pricing">PRICING</a>
             </li>
             <li>
               <a href="/Contact">CONTACT</a>
