@@ -1,4 +1,4 @@
-/*Home Page globals
+/* Home Page globals
 =====================================*/
 .home-page {
   width: 100%;
@@ -8,7 +8,7 @@
 div {
   vertical-align: top;
 }
-/*Top image half
+/* Top image half
 =======================================*/
 .top-img {
   width: 100%;
@@ -25,7 +25,7 @@ div {
   margin-top: 25%;
 }
 
-/*Second (bottom half) 
+/* Second (bottom half) 
 =========================================*/
 .services-img {
   display: block;
@@ -48,4 +48,53 @@ div {
 
 .header-block p {
   padding: 0;
+}
+
+/* Text Blocks
+===========================================*/
+
+.text {
+  position: absolute;
+  z-index: 1;
+  padding-top: 0;
+
+  width: 20rem;
+  height: auto;
+  margin-top: 10rem;
+  padding: 3rem;
+
+  border: 4.5px solid black;
+  box-shadow: inset 0px 0px 50px 4px;
+  font-weight: 600;
+  border-radius: 10%;
+}
+
+.textbox-header {
+  text-align: center;
+}
+
+/*Individual text boxs by ID 
+=============================================*/
+#services-textbox {
+  margin-top: 20rem;
+  left: 15rem;
+}
+
+#protfolio-textbox {
+  margin-top: 25rem;
+  right: 15em;
+}
+
+#protfolio-textbox a {
+  font-weight: 100;
+  text-decoration: underline;
+  color: blue;
+}
+
+/*Buttons
+===========================*/
+.buttons {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: auto;
 }
