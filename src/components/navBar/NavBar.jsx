@@ -12,14 +12,14 @@ export default class NavBar extends Component {
   render() {
     return (
       <nav>
-        <a href="/">
-          <img
-            src={require("../../assets/Source file.png")}
-            alt="Logo"
-            className="nav-logo"
-          />
-        </a>
+       
         <div className="navigatoin">
+          <a href ="/">
+          <img 
+              src={require("../../assets/Source file.png")}
+              alt = "Logo"
+              className="nav-logo-mobile712" />
+          </a>
           <ul className="navigation-items">
             <li>
               <a href="/">HOME</a>
@@ -37,14 +37,22 @@ export default class NavBar extends Component {
                   <a href="/Our-Team">Our Team</a>
                 </li>
               </ul>
-            </li>
+            </li> <a href="/">
+          <img
+            src={require("../../assets/Source file.png")}
+            alt="Logo"
+            className="nav-logo-desktop"
+          />
+        </a>
             <li>
               <a href="/Pricing">PRICING</a>
             </li>
             <li>
               <a href="/Contact">CONTACT</a>
             </li>
+            
           </ul>
+        
         </div>
       </nav>
     );

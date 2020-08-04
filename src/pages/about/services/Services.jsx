@@ -13,7 +13,6 @@ export default function Services(){
             <img className="blogger-img" src={require("../../../assets/about/blogger.jpg")} alt="Blog Background"/>
             <img className="hobby-img" src={require("../../../assets/about/personal.png")} alt="Personal Background"/>
             </div>
-            <img src="" alt=""/>
             <Footer/>
         </div>
     )

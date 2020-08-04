@@ -1,6 +1,16 @@
 .images img{
     width: 100%;
-    height: auto;
+    height: 100vh;
     margin: auto;
     display: block;
+}
+
+/*Response rules
+===========================*/
+
+/*Fix image quality at 1075 px*/
+@media screen and (max-width: 1075px){
+    .images img {
+        height: auto;
+    }
 }
