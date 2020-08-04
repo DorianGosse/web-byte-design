@@ -5,8 +5,14 @@ import "./Slider.css"
 
 export default class Slider extends Component {
 
+    constructor(props){
+        super(props); 
+    
+    }
+
     render(){
         return(
+
             <div className = "slider">
 
 
