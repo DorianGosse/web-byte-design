@@ -12,6 +12,7 @@ import OurTeam from "./pages/about/ourTeam/OurTeam";
 import Services from "./pages/about/services/Services"; 
 
 
+
 function App() {
   return (
     <>
@@ -23,6 +24,8 @@ function App() {
         <Route exact path="/pricing" component={Pricing}/> 
         <Route exact path="/services" component={Services}/>
         <Route exact path="/our-team" component={OurTeam}/> 
+       
+       
         <Route component={Error} />
       </Switch>
 

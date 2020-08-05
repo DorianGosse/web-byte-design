@@ -3,7 +3,7 @@ import React from "react";
 import "./home.css";
 import NavBar from "../../components/navBar/NavBar";
 import Footer from "../../components/footer/Footer";
-// import Slider from "../../components/slider/Slider"; 
+import Slider from "../../components/carousel/Carousel"; 
 
 export default function home() {
   return (
@@ -13,9 +13,9 @@ export default function home() {
         <NavBar/>
       </div>
       
-      {/* <div className="slider-container">
+      <div className="slider-container">
         <Slider/>
-      </div> */}
+      </div>
 
            <div className="footer">
             <Footer />
