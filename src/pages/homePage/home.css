@@ -23,7 +23,16 @@
 
 }
 
+#home-tag-line{
+text-align: center;
+margin: 75px;
+}
 
+#home-tag-line p {
+  font-weight: bold;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace ;
+}
  
 
 

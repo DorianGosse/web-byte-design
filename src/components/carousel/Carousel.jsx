@@ -1,4 +1,5 @@
 import React, {Component} from "react"; 
+import {Link} from "react-router-dom"; 
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,46 +14,61 @@ import OurWorkImg from "../../assets/carousel/ourwork.png";
 
 const photos = [
     {
-        name: "Services", 
+        name: "services", 
         title: "Our Services",
+        linksTo: "/services", 
         source: ServicesImg
     }, 
     {
-        name: "Contact", 
+        name: "contact", 
         title: "Contact Us",
+        linksTo: "contact",
         source: ContactImg
     }, 
     {
-        name: "About",
+        name: "about",
         title: "About Us", 
+        linksTo: "/about-us",
         source: AboutImg
     }, 
     {
-        name: "Our Work", 
-        title: "What We've Done", 
+        name: "portfolio", 
+        title: "What We've Done",
+        linksTo: "/portfolio", 
         source: OurWorkImg
     }
 ]
-export default class Carousel extends Component {
 
+
+export default class Carousel extends Component {
+    constructor(props){
+        super(props); 
+    }
+
+  
     render (){
         const settings = {
             dots: true, 
-            fade: true, 
             infinate: true, 
             speed: 500, 
             slidesToShow: 1,
             arrows: false, 
             slidesToScroll: 1, 
-            className: "slides"
+            autoplay: true,
+            autoplaySpeed: 2000, 
+            className: "slides",
+            pauseOnHover: false
         }
         return (
             
-            <Slider {...settings}>
+            <Slider {...settings}> 
             {photos.map((photo) => {
                 return(
                     <div className = "slider-wrapper">
-                    <img width="100%" src={photo.source} />
+                        <a href = {photo.linksTo}>
+                                
+                           <img width="100%" src={photo.source} />
+                        </a>
                     </div>
                 )
             })}

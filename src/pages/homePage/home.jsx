@@ -17,9 +17,13 @@ export default function home() {
         <Slider/>
       </div>
 
-           <div className="footer">
-            <Footer />
-           </div>
+      <div id="home-tag-line">
+        <p>Where professionals come <br/>for custom web solutions</p>
+      </div>  
+
+       <div className="footer">
+         <Footer />    
+       </div>
     </div>
   );
 }
