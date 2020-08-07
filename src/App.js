@@ -11,12 +11,14 @@ import AboutUs from "./pages/about/aboutUs/AboutUs";
 import OurTeam from "./pages/about/ourTeam/OurTeam"; 
 import Services from "./pages/about/services/Services"; 
 
+// DONT FORGET TO REMOTE THIS IMPORT
+import Test from "./pages/testpage/TestPage"
+
 
 
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about-us" component={AboutUs} />
@@ -25,11 +27,12 @@ function App() {
         <Route exact path="/services" component={Services}/>
         <Route exact path="/our-team" component={OurTeam}/> 
        
+      {/* DONT FORGET TO REMOVE THIS ROUTE */}
+       <Route exact path ="/test-page" component ={Test}/> 
        
         <Route component={Error} />
       </Switch>
 
-      {/* <Footer /> */}
     </>
   );
 }

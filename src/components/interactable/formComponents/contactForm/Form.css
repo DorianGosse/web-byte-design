@@ -1,0 +1,14 @@
+form{
+    position: absolute;
+    padding: 20px;
+    background-color: blue;
+}
+.input-field {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.form-label{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

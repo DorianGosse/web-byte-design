@@ -1,5 +1,14 @@
-.contact-img{
+.contact-page{
+    position: absolute;
     width: 100%;
-    margin: auto;
-    display: block;
+    height: 100vh;
+    background-image: url(../../assets/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+
 }
+
+Footer {
+    position: fixed;
+}
+
