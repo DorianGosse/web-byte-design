@@ -11,7 +11,6 @@ export default function Contact() {
     <div className="contact-page">
       <NavBar />
       <div className = "form-area"> 
-        <h2>Drop us a Line!</h2> 
       </div>
       <div className="contact-form">
       <Form/>
