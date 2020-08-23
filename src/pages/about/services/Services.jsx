@@ -128,7 +128,41 @@ export default function Services(){
             </div>
 
             <div className="services-img" id="personal">
-                
+                <div className="textbox" id="textbox7">
+                    <h3>Personal Brands and Events</h3>
+                    <div className="">
+                        <p>
+                            Professonials or events looking for an online business card<br/>
+                            we have solutions to fit every occasion or brand
+                        </p>
+                    </div>
+                    <div className="">
+                        <p className=""> For brands or events</p>
+                        <p className="">Increase brand or event exposure</p>
+                        <p  className="">Create and build a community around your brand or event</p>
+                        <p  className="">News letter sign up and more</p>
+                    </div>
+                </div> 
+                <div className="textbox" id="textbox8">
+                    <h3>Professonials and Brands</h3>
+                    
+                    <div className="">
+                        <p className="">Elevating professonial brands for professonial people</p>
+                    </div>
+
+                    <div className="">
+                        <p className="">Attract potential customers</p>
+                        <p className="">Create a larger auidence</p>
+                        <p className="">Showcase your skills and portfolio</p>
+                    </div>
+                </div>
+              
+               <div className="textbox" id="textbox9">
+                <h3>Events and Occasions</h3>
+                <div className="">
+                    <p className="">  </p>
+                </div>
+                </div>    
             </div>  
         </div>
     )
