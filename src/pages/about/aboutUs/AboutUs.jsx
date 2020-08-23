@@ -8,7 +8,6 @@ export default function AboutUs(){
     return(
         <div className="about-us-page">
             <NavBar/>
-            <img className="about-img" src={require("../../../assets/about/aboutUs.jpg")} alt="About Background"/>
             <Footer/>
         </div>
     )

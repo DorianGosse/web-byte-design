@@ -8,7 +8,6 @@ export default function Pricing (){
     return(
         <div className="pricing-page">
             <div className="navigation"><NavBar/></div>
-            <img className="pricing-img" src={require('../../assets/pricing.jpg')} alt="pricingBackground"/>
         <div className="footer"><Footer/></div>
         </div>
     )

@@ -6,12 +6,6 @@
   background-image: url(../../assets/hometop.jpg);
 }
 
-/* .footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-} */
-
 .slider-container{
 
   max-width: 650px;
@@ -32,6 +26,7 @@ margin: 75px;
   font-size: x-large;
   font-family: 'Courier New', Courier, monospace ;
 }
+
  
 
 

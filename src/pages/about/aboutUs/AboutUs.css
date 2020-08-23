@@ -1,6 +1,7 @@
-.about-img{
+.about-us-page{
     width: 100%;
-    height: auto;
-    margin: auto;
-    display: block;
+    height: 100vh; 
+    background-image: url(../../../assets/about/aboutUs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
