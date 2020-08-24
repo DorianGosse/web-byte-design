@@ -1,120 +1,134 @@
 /*Image and Background Rules
 ===========================================*/
-.services-img{
-width: 100%; 
-height: 100vh;
-background-size: 100%;
-background-repeat: no-repeat;
+.services-img {
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 #business {
-background-image: url(../../../assets/about/businessOwner.jpeg);
+  background-image: url(../../../assets/about/businessOwner.jpeg);
 }
-#blogging{
-background-image: url(../../../assets/about/blogger.jpg);
+#blogging {
+  background-image: url(../../../assets/about/blogger.jpg);
 }
 #personal {
-background-image: url(../../../assets/about/personal.png);
-}
-/*General Text Box Rules 
-===========================================*/
-.textbox{
-    font-size: 18px;
-    position: absolute;
-}
-.textbox-right{
-    font-size: 18px;
-    position: absolute;
-    right: 0; 
-    margin-right: 100px;
-    margin-top:200px;
-    padding: 15px; 
-    border-radius: 8px;
-}
-h3{
-    text-align:center;
-    margin-bottom: 5px;
+  background-image: url(../../../assets/about/personal.png);
 }
 
-.point{
-    margin-bottom: 10px;
-    text-align: center;
+/*General Text Box Rules 
+===========================================*/
+.textbox {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 15px 30px 30px 30px;
+  background-color: red;
+  border-radius: 8px;
+  max-width: 300px;
+}
+.textbox-right {
+  position: absolute;
+  max-width: 300px;
+  right: 0;
+  padding: 15px 30px 30px 30px;
+  margin-right: 100px;
+  margin-top: 200px;
+
+  background-color: red;
+  border-radius: 8px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.point {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 /*Text Block Rules (For Business of all Sizes)
 ==========================================*/
-#textbox1{
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 200px;
-    margin-left: 100px;
+#textbox1 {
+  padding: 15px;
+  margin-top: 200px;
+  margin-left: 100px;
 }
 
-#textbox1 h2{
-    text-align: center;
-    margin-bottom: 5px;
+#textbox1 h2 {
+  text-align: center;
+  margin-bottom: 5px;
 }
-.business-first{
-    margin-top: 10px;
-    text-align: center;
+.business-first {
+  margin-top: 10px;
+  text-align: center;
 }
-.points{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.points {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.what-we-offer {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
 }
 
 /*Point for First Text Box
 =================================================*/
 
-.bold-point{
-    margin-left: 38%;
-    width: 75px;
-    font-weight: 600;
+.bold-point {
+  margin-left: 38%;
+  width: 75px;
+  font-weight: 600;
 }
- .italic {
-     margin-left: 43%;
-     font-weight: 600;
-     font-style: italic;
- }
+.italic {
+  margin-left: 43%;
+  font-weight: 600;
+  font-style: italic;
+}
 
- #design{
-     margin-left: 39.5%;
- }
+#design {
+  margin-left: 39.5%;
+}
 
- /*Second Text Box Rules
+/*Second Text Box Rules
  ============================================*/
- .intro {
-    margin-bottom: 10px;
-    text-align: center;
+.intro {
+  margin-bottom: 10px;
+  text-align: center;
 }
-.what-we-offer{
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
 
 /*Third Text Box Rules
 ================================================*/
-#textbox3{
-    margin-top: 625px;
-    margin-right: 250px     
+#textbox3 {
+  margin-top: 625px;
+  margin-right: 250px;
 }
 
 /*4th Text box rules
 ========================================*/
-#textbox4{
-
+#textbox4 {
 }
 
-#textbox5{
-
+#textbox5 {
 }
 
-#textbox6{
-    margin-top: 400px; 
+#textbox6 {
+  margin-top: 400px;
 }
 
+#textbox7 {
+  margin-top: 150px;
+}
 
+#textbox8 {
+}
+#textbox9 {
+  margin-top: 575px;
+  margin-right: 150px;
+}
 /*Button Rules
 ================================================*/
 .buttons {
@@ -122,20 +136,17 @@ h3{
   width: 225px;
   align-items: center;
 }
-.buttons Button{
-    margin-top: 10px;
-    font-weight: bold;
+.buttons Button {
+  margin-top: 10px;
+  font-weight: bold;
 }
-
-
-
 
 /*Response rules
 ===========================*/
 
 /*Fix image quality at 1075 px*/
-@media screen and (max-width: 1075px){
-    .images img {
-        height: auto;
-    }
+@media screen and (max-width: 1075px) {
+  .images img {
+    height: auto;
+  }
 }
