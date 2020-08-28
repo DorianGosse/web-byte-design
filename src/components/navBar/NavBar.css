@@ -7,28 +7,20 @@ nav {
   max-width: 1920px;
   width: 100%;
   height: auto;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  margin: auto;
 
+  padding-top: 15px;
+  /* padding-bottom: 30rem; */
+
+  margin: auto;
+  text-align: center;
   z-index: 2;
 }
 /* NarBar Logo
  ==================================  */
-.nav-logo-desktop,
-.nav-logo-mobile712 {
-  width: 250px;
-
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-top: 25px;
-}
-
-.nav-logo-mobile712 {
-  display: none;
-  margin: auto;
-  padding-top: 0;
-  padding-bottom: 10px;
+.nav-logo-desktop {
+  width: 350px;
+  height: 75px;
+  margin-bottom: 15px;
 }
 
 /* NavBar ul, ul li, ul li a
@@ -42,31 +34,20 @@ nav {
 
 .navigation-items li {
   display: inline-block;
-  /* margin-right: 3rem; */
+
+  background-color: #000;
+  opacity: 75%;
+  padding: 10px 25px;
+
+  border-left: solid 2px #0b0b0b;
+  border-radius: 5px;
 
   font-size: large;
   font-weight: bold;
 }
-
-.navigation-items li a {
-  padding: 0.5rem 1rem;
+#contact {
+  border-right: solid 2px #0b0b0b;
 }
-
-/* About-sub-list
-============================== */
-
-/* .About-sub-list {
-  display: none;
-  position: absolute;
-
-  padding-left: 0;
-}
-
-.About-sub-list li {
-  text-align: left;
-  width: 100%;
-  padding-top: 10px;
-} */
 
 /* Hovering Navigation Items 
 ================================= */
@@ -75,25 +56,12 @@ nav {
   color: #c9c9c9;
 }
 
-.navigation-items li:hover ul {
-  display: block;
+.navigation-items li:hover {
+  opacity: 100%;
 }
 
 /*Response Rules
 ==================================*/
-
-@media screen and (max-width: 712px) {
-  .nav-logo-desktop {
-    display: none;
-  }
-  .nav-logo-mobile712 {
-    display: block;
-  }
-
-  nav {
-    padding-top: 0;
-  }
-}
 
 @media screen and (max-width: 440px) {
 }

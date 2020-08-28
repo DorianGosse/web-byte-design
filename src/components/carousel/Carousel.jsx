@@ -9,7 +9,7 @@ import Slider from "react-slick";
 
 import AboutImg from "../../assets/carousel/About.png";
 import ServicesImg from "../../assets/carousel/services.png";
-import ContactImg from "../../assets/carousel/contact.png";
+import ContactImg from "../../assets/carousel/notebook.png";
 import OurWorkImg from "../../assets/carousel/ourwork.png";
 
 const photos = [

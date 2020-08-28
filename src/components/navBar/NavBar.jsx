@@ -17,7 +17,7 @@ export default class NavBar extends Component {
             <img
               src={require("../../assets/Source file.png")}
               alt="Logo"
-              className="nav-logo-mobile712"
+              className="nav-logo-desktop"
             />
           </a>
           <ul className="navigation-items">
@@ -26,29 +26,12 @@ export default class NavBar extends Component {
             </li>
             <li>
               <a href="/services">SERVICES</a>
-              {/* <ul className="About-sub-list">
-                <li>
-                  <a href="/Services">Services</a>
-                </li>
-                <li>
-                  <a href="/About-Us">About Us</a>
-                </li>
-                <li>
-                  <a href="/Our-Team">Our Team</a>
-                </li>
-              </ul> */}
-            </li>{" "}
-            <a href="/">
-              <img
-                src={require("../../assets/Source file.png")}
-                alt="Logo"
-                className="nav-logo-desktop"
-              />
-            </a>
+            </li>
+            <a href="/"></a>
             <li>
               <a href="/Pricing">PRICING</a>
             </li>
-            <li>
+            <li id="contact">
               <a href="/Contact">CONTACT</a>
             </li>
           </ul>
