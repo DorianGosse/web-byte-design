@@ -7,7 +7,7 @@ import "./Carousel.css";
 
 import Slider from "react-slick";
 
-import AboutImg from "../../assets/carousel/About.png";
+import PricingImg from "../../assets/carousel/pricing1.png";
 import ServicesImg from "../../assets/carousel/services.png";
 import ContactImg from "../../assets/carousel/notebook.png";
 import OurWorkImg from "../../assets/carousel/ourwork.png";
@@ -29,7 +29,7 @@ const photos = [
     name: "pricing",
     title: "Pricing",
     linksTo: "/pricing",
-    source: AboutImg,
+    source: PricingImg,
   },
   {
     name: "portfolio",
