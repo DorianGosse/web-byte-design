@@ -15,7 +15,7 @@ export default class NavBar extends Component {
         <div className="navigatoin">
           <a href="/">
             <img
-              src={require("../../assets/Source file.png")}
+              src={require("../../assets/Black logo.png")}
               alt="Logo"
               className="nav-logo-desktop"
             />

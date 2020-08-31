@@ -4,17 +4,18 @@
 nav {
   top: 0;
   position: fixed;
-  max-width: 1920px;
+  /* max-width: 1920px; */
+
   width: 100%;
   height: auto;
 
   padding-top: 15px;
-  /* padding-bottom: 30rem; */
 
   margin: auto;
   text-align: center;
   z-index: 2;
 }
+
 /* NarBar Logo
  ==================================  */
 .nav-logo-desktop {
