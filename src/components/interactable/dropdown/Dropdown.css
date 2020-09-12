@@ -1,0 +1,18 @@
+/*Header Rules
+==========================================*/
+#quote-form-header {
+  text-align: center;
+}
+/*Dropdown List Rules
+==========================================*/
+.dropdown-container {
+  position: relative;
+  width: 250px;
+  margin: 0;
+}
+/*Section Div rules
+===========================================*/
+.quote-divider {
+  width: 50%;
+  margin: 0;
+}
